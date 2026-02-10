@@ -37,6 +37,9 @@ node_modules/
 *~
 .DS_Store
 
+# Local notes
+phase*.txt
+
 # Docker
 docker-compose.override.yml
 
