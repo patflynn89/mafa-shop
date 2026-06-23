@@ -60,9 +60,9 @@ WSGI_APPLICATION = "config.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": os.getenv("POSTGRES_DB", "marfa_shop"),
-        "USER": os.getenv("POSTGRES_USER", "marfa"),
-        "PASSWORD": os.getenv("POSTGRES_PASSWORD", "marfa_secret"),
+        "NAME": os.getenv("POSTGRES_DB", "mafa_shop"),
+        "USER": os.getenv("POSTGRES_USER", "mafa"),
+        "PASSWORD": os.getenv("POSTGRES_PASSWORD", "mafa_secret"),
         "HOST": os.getenv("POSTGRES_HOST", "db"),
         "PORT": os.getenv("POSTGRES_PORT", "5432"),
     }

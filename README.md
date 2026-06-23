@@ -23,7 +23,7 @@ A second-hand e-commerce marketplace for clothes, books, and more.
 ## Project Structure
 
 ```
-marfa-shop/
+mafa-shop/
 ├── backend/                  # Django project
 │   ├── config/               # Django settings, urls, wsgi
 │   ├── apps/

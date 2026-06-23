@@ -7,7 +7,7 @@ services:
     ports:
       - "5432:5432"
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-marfa}"]
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-mafa}"]
       interval: 5s
       timeout: 5s
       retries: 5
