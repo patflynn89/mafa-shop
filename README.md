@@ -1,4 +1,4 @@
-# Marfa Shop
+# Mafa Shop
 
 A second-hand e-commerce marketplace for clothes, books, and more.
 
